@@ -7,10 +7,12 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Omar Yasin</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -21,7 +23,7 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Omar Yasin</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -38,16 +40,48 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        <div class="orbit">
+  
+          <ul class="orbit-wrap">
+            
+            <li class="orbit-center">
+              <i class="orbit-center__icon fa fa-code"></i>
+            </li>
+        
+            <li>
+             
+            <li>
+              <ul class="ring-2">
+                <li><i class="orbit-icon fa fa-windows"></i></li>
+                <li><i class="orbit-icon fa fa-safari"></i></li>
+                <li><i class="orbit-icon fa fa-edge"></i></li>
+                <li><i class="orbit-icon fa fa-linux"></i></li>
+                <li><i class="orbit-icon fa fa-apple"></i></li>
+                <li><i class="orbit-icon fa fa-chrome"></i></li>
+                <li><i class="orbit-icon fa fa-android"></i></li>
+                <li><i class="orbit-icon fa fa-firefox"></i></li>
+              </ul>
+            </li>
+            <li>
+              <ul class="ring-3">
+                <li><i class="orbit-icon fa fa-coffee"></i></li>
+                <li><i class="orbit-icon fa fa-terminal"></i></li>
+                <li><i class="orbit-icon fa fa-heart-o"></i></li>
+              </ul>
+            </li>
+        
+          </ul>
+          
+        </div>
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">John Doe</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <h1 class="title">Omar Yasin</h1>
+        <p class="section__text__p2"><span style="color: #d55713;">Software Engineer</span> </p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/omaradwn-cv.pdf')"
           >
             Download CV
           </button>
@@ -60,13 +94,13 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onclick="location.href='https://linkedin.com/in/omaradwn/'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/'"
+            onclick="location.href='https://github.com/omaradwanyasin'"
           />
         </div>
       </div>
@@ -77,7 +111,7 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about-pic.png"
+            src="./assets/room2.png"
             alt="Profile picture"
             class="about-pic"
           />
@@ -91,7 +125,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
+              <p>FullStack Developer</p>
             </div>
             <div class="details-container">
               <img
@@ -100,17 +134,16 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <p>B.Sc. Bachelors Degree<br />Arab American University</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              software engineer with a knack for problem-solving and a passion for crafting smooth experiences. 
+              I've built skills in various technologies like  C#, Python, C++, .NET , Java, JavaScript.. 
+              From front-end development to back-end solutions, I thrive on creating intuitive interfaces and efficient systems. 
+              Currently interning as a back-end developer with ASAL, 
+              I'm eager to continue innovating and making a positive impact in the tech world.
             </p>
           </div>
         </div>
@@ -171,7 +204,7 @@
                 />
                 <div>
                   <h3>JavaScript</h3>
-                  <p>Basic</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -181,8 +214,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <h3>React js</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -193,13 +226,13 @@
                 />
                 <div>
                   <h3>Material UI</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Backend Development</h2>
             <div class="article-container">
               <article>
                 <img
@@ -208,8 +241,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
+                  <h3>MongoDB</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -230,8 +263,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
+                  <h3>C#</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -242,7 +275,29 @@
                 />
                 <div>
                   <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>REST API</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>.net core</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
             </div>
@@ -264,76 +319,38 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/easypark.png"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">EasyPark</h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+              <p>
+                Founder of EasyPark The platform aims to revolutionize parking
+                accessibility and efficiency, marking the first of its kind in
+                Palestine
+              </p>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
+                src="./assets/insta.png"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Instagram</h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+              <p>Implemented advanced React concepts, including React Router, Context API, and Hooks, to create a
+                dynamic and interactive user interface.
+                · Integrated REST API endpoints for user profiles, posts, and comments, ensuring seamless data interaction with
+                the backend.
+                · Engineered robust user authentication and authorization features with cutting-edge authentication libraries</p>
             </div>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-        </div>
+          
       </div>
       <img
         src="./assets/arrow.png"
@@ -352,7 +369,13 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p>
+            <a
+              href="mailto:yasinomaroy@gmail.com
+            "
+              >yasinomaroy@gmail.com
+            </a>
+          </p>
         </div>
         <div class="contact-info-container">
           <img
@@ -360,7 +383,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://linkedin.com/in/omaradwn/">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -375,7 +398,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>Copyright &#169; 2023 Omar Yasin. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
