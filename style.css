@@ -271,6 +271,9 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
 }
 
 .about-details-container {
